@@ -3,8 +3,9 @@ import Link from "next/link";
 const Navbar = () => {
 
     const links = <>
-     <li><Link href = "/docs">Item 1</Link></li>
-      <li><Link href ="/showcase">Item 2</Link></li>
+     <li><Link href = "/docs">Document</Link></li>
+      <li><Link href ="/showcase">Show</Link></li>
+      <li><Link href ="/blogs">Blogs</Link></li>
     </>
 
     return (
